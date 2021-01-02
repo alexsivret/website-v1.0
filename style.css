@@ -1,0 +1,86 @@
+/* Basic color scheme: Brown, navy, light blue, white.*/
+body {
+  background-color: #dbfcff;
+  /* Changing font to Trebuchet MS unless otherwise stated. I would like to change later but need to research more fonts.*/
+  font-family: 'Trebuchet MS';
+}
+/*Placeholder image? for background of header*/
+header{
+  text-align: center;
+  background-image: url("images/starry-night.jfif");
+  background-size: 1440px 100px
+  background-color: #857E61;
+  padding: 10px;
+  color: white;
+  font-family:  'Trebuchet MS';
+}
+/* Setting header text to the right for now, to expiriment with how it looks as a full page*/
+h1{
+  font-size: 60px;
+  text-align: right;
+  text-shadow: 3px 3px black;
+}
+h2{
+  text-align: right;
+  text-shadow: 3px 3px black;
+
+}
+/* Making subsections in the about me to change things easier later if needed*/
+.aboutme {
+  text-align: center;
+}
+.aboutme h3{
+font-style: italic;
+font-size: 30px;
+text-decoration: underline;
+color: #0e0e52;
+}
+.aboutme p{
+text-align: center;
+background-color: #857E61;
+color: white;
+padding: 5px ;
+margin: 10px
+}
+/*Changing link colors but only links in the aboutme section, just in case*/
+.aboutme a:link {color: blue}
+.aboutme a:visited {color: #0e0e52}
+.aboutme a:hover {color: white}
+.aboutme a:active  {color: violet}
+
+hr{
+  border: 2px dotted #0e0e52
+}
+/* I may be able to clean this up, but I want to make sure I go through everything step by step.*/
+
+.background{
+  background-color: #0e0e52;
+  margin: 10px;
+  padding: 5px;
+  color: white
+}
+.background h4{
+  text-decoration: underline #857E61;
+  font-size: 28px
+
+}
+/*Changing the color of the list, just to add variety to this section and play with css a bit more*/
+.background ul{
+  color: #dbfcff
+}
+/*May end up changing the background class to something else to not confuse other people who see this website.*/
+.goals{
+  background-color: #857E61;
+  color: white;
+  margin: 10px;
+  padding: 5px; 
+}
+.goals h4{
+  text-align: center
+}
+footer{
+  background-color: white
+}
+.footer-right{
+  text-align: right
+}
